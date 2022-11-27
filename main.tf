@@ -15,6 +15,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "myTFResourceGroupterr"
+  name     = "myTFResourceGroup"
   location = "centralus"
 }
